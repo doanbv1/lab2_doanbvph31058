@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingTop="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="411dp"
+        android:layout_height="50dp"
+        android:background="#00FF00"
+        android:gravity="center"
+        android:text="Lab2-DoanBV-PH31058"
+        android:textSize="20dp"/>
+
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:contentDescription="logo"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên của bạn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Bạn đang học hệ nào ?"
+        android:textSize="20dp"/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cao Đẳng"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phổ Cao"/>
+    </RadioGroup>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Bạn thích học ngôn ngữ nào ? "/>
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Java"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C++"/>
+    <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JavaScript"/>
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LƯU DỮ LIỆU"/>
+</LinearLayout>
